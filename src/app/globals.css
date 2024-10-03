@@ -2,4 +2,136 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #f2dfce;
+}
 
+h1 h2 h3 h4 p span li a {}
+
+.bookContainer {
+    height: 80vh;
+    width: 95%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bookContainer aside {
+    width: 42.5%;
+    background: #f8eadd;
+    border-radius: 20px;
+    boxShadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    flex-grow: 1;
+    margin: 20px 10px;
+}
+
+.bookContainer aside p {
+    line-height: 21px;
+}
+
+.floating-toolbar {
+    background: #ffd9d9;
+}
+
+.floating-toolbar-close {
+    background: #ffd9d9;
+
+}
+
+.modal-content-reed {
+    background: #daa4a4;
+
+}
+
+.btn-submit-reed {
+    background: #000;
+}
+
+.hover-card {
+    background: #f2dfce;
+
+}
+
+.center {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.small {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Highlighting styling */
+
+.romantic_pink{
+    background-color: rgba(220, 149, 173, 0.463);
+    border-radius: 5px;
+    border: dotted 01px rgb(220, 149, 173);
+    background-image: url(../../public/highligth_images/hearts.png), url(../../public/highligth_images/hearts.png);
+    background-position: right bottom, left top;
+    background-size: 20px, 15px;
+    background-repeat: no-repeat, no-repeat;
+    /* padding: 3px; */
+    background-origin: padding-box;
+}
+
+.romantic_red{
+    background-color: rgba(220, 149, 149, 0.463);
+    border-radius: 5px;
+    border: solid 1px rgb(207, 99, 99);
+    background-image: url(../../public/highligth_images/love.png), url(../../public/highligth_images/music.png);
+    background-position: left -5px, right bottom;
+    background-size: 20px, 10px;
+    background-repeat: no-repeat, no-repeat;
+    /* padding: 3px; */
+    background-origin: padding-box;
+}
+
+.isnpired_blue{
+    background-color: #81d4fa61;
+    border-radius: 5px;
+    border: solid 1px #81D4FA;
+    background-image: url(../../public/highligth_images/imagination.png), url(../../public/highligth_images/creativity.png);
+    background-position: right 2px, left top;
+    background-size: 10px, 15px;
+    background-repeat: no-repeat, no-repeat;
+    background-origin: padding-box;
+}
+
+.green{
+    background-color: rgba(138, 207, 138, 0.584);
+    border: solid 1px rgb(138, 207, 138);
+    border-radius: 5px;
+}
+
+.purple{
+    background-color: rgba(198, 138, 207, 0.584);
+    border: solid 1px rgb(188, 138, 207);
+    border-radius: 5px;
+}
+
+.orange{
+    background-color: rgba(232, 186, 117, 0.584);
+    border: solid 1px rgb(224, 161, 109);
+    border-radius: 5px;
+}
+
+.yellow{
+    background-color: rgba(232, 230, 117, 0.584);
+    border: solid 1px rgb(224, 220, 109);
+    border-radius: 5px;
+}
+
+.highlight_options{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
